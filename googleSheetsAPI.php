@@ -38,7 +38,7 @@
 
     $service = new \Google_Service_Sheets($client);
 
-    $spreadsheetId = "GOOGLE-SHEETS-ID";
+    $spreadsheetId = "https://docs.google.com/spreadsheets/d/1UqVpsum_F1h6Eg90TkaD3fYY9HKiC9NG-n6nns_CF94/edit#gid=0";
 
     // updateData($spreadsheetId,$service);
     insertData($spreadsheetId,$service,$displayName);
